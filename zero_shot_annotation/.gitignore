@@ -1,0 +1,13 @@
+# External data, model weights, and generated outputs
+data/
+ckpt/
+results/
+results-*/
+*.pt
+*.ckpt
+*.log
+*.h5ad
+*.npy
+*.npz
+*.pkl
+__pycache__/

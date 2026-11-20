@@ -1,0 +1,157 @@
+{
+  "scLMCT_tsne30": {
+    "run_dir": "./all_results/landscape_tsne_umap/scLEAD",
+    "representations": {
+      "embeddings": {
+        "type": "npy",
+        "path": "embeddings.npy"
+      },
+      "pca100": {
+        "type": "npy",
+        "path": "embeddings_pca100.npy"
+      },
+      "pca2": {
+        "type": "first_n_cols",
+        "source": "pca100",
+        "n_cols": 2
+      },
+      "tsne": {
+        "type": "npy",
+        "path": "tsne_full.npy"
+      },
+      "umap": null
+    }
+  },
+  "scTab": {
+    "run_dir": "./all_results/landscape_tsne_umap/scTab",
+    "representations": {
+      "embeddings": {
+        "type": "npy",
+        "path": "embeddings.npy"
+      },
+      "pca100": {
+        "type": "npy",
+        "path": "embeddings_pca100.npy"
+      },
+      "pca2": {
+        "type": "first_n_cols",
+        "source": "pca100",
+        "n_cols": 2
+      },
+      "tsne": {
+        "type": "npy",
+        "path": "tsne_full.npy"
+      },
+      "umap": {
+        "type": "npy",
+        "path": "umap_full.npy"
+      }
+    }
+  },
+  "CellFM": {
+    "run_dir": "./all_results/landscape_tsne_umap/CellFM",
+    "representations": {
+      "embeddings": {
+        "type": "npy",
+        "path": "embeddings.npy"
+      },
+      "pca100": {
+        "type": "npy",
+        "path": "embeddings_pca100.npy"
+      },
+      "pca2": {
+        "type": "first_n_cols",
+        "source": "pca100",
+        "n_cols": 2
+      },
+      "tsne": {
+        "type": "npy",
+        "path": "tsne_full.npy"
+      },
+      "umap": {
+        "type": "npy",
+        "path": "umap_full.npy"
+      }
+    }
+  },
+  "scFoundation": {
+    "run_dir": "./all_results/landscape_tsne_umap/scFoundation",
+    "representations": {
+      "embeddings": {
+        "type": "npy",
+        "path": "embeddings.npy"
+      },
+      "pca100": {
+        "type": "npy",
+        "path": "embeddings_pca100.npy"
+      },
+      "pca2": {
+        "type": "first_n_cols",
+        "source": "pca100",
+        "n_cols": 2
+      },
+      "tsne": {
+        "type": "npy",
+        "path": "tsne_full.npy"
+      },
+      "umap": {
+        "type": "npy",
+        "path": "umap_full.npy"
+      }
+    }
+  },
+  "seurat": {
+    "run_dir": "./all_results/landscape_tsne_umap/HVG_TSNE_UMAP_seurat_2000hvgs",
+    "representations": {
+      "embeddings": {
+        "type": "h5ad_X",
+        "path": "adata_hvg_dr.h5ad"
+      },
+      "pca100": {
+        "type": "npy",
+        "path": "pca_hvg.npy"
+      },
+      "pca2": {
+        "type": "first_n_cols",
+        "source": "pca100",
+        "n_cols": 2
+      },
+      "tsne": {
+        "type": "npy",
+        "path": "tsne_hvg.npy"
+      },
+      "umap": {
+        "type": "npy",
+        "path": "umap_hvg.npy"
+      }
+    }
+  },
+  "scanpy": {
+    "run_dir": "./all_results/landscape_tsne_umap/HVG_TSNE_UMAP_scanpy_2000hvgs",
+    "representations": {
+      "embeddings": {
+        "type": "h5ad_X",
+        "path": "adata_hvg_dr.h5ad"
+      },
+      "pca100": {
+        "type": "npy",
+        "path": "pca_hvg.npy"
+      },
+      "pca2": {
+        "type": "first_n_cols",
+        "source": "pca100",
+        "n_cols": 2
+      },
+      "tsne": {
+        "type": "npy",
+        "path": "tsne_hvg.npy"
+      },
+      "umap": {
+        "type": "npy",
+        "path": "umap_hvg.npy"
+      }
+    }
+  }
+  
+  
+}

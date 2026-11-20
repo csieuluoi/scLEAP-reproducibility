@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scleap"
+version = "0.1.0"
+description = "Single-cell annotation using Expression–Language Alignment and Poincaré geometry."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "anndata",
+    "h5py",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "pytorch_lightning",
+    "scanpy",
+    "scikit_learn",
+    "seaborn",
+    "transformers==4.55.3",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["scleap"]
+
+# add this section
+[tool.setuptools.package-data]
+scleap = ["ct_descriptions/*.json"]
